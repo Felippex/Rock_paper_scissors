@@ -22,10 +22,6 @@ img {
   margin: 0 auto;
 }
 
-img:hover {
-  border-bottom: 2px solid green;
-}
-
 .start,
 .reset {
   display: block;
