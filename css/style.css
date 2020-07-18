@@ -1,8 +1,61 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 
 .test {
   background-color: red;
+}
+
+.choose {
+  margin: 20px auto;
+}
+
+.hand {
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover {
+  border-bottom: 2px solid green;
+}
+
+.start,
+.reset {
+  display: block;
+  padding: 5px 20px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: bold;
+  margin: 20px auto;
+  transition: 0.3s;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: green;
+  color: white;
+}
+
+.reset:hover {
+  background-color: red;
+  color: white;
+}
+
+.game-panel {
+  margin-top: 50px;
+}
+
+.panel-left,
+.panel-right {
+  text-align: left;
+  margin-left: 20px;
 }

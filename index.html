@@ -11,6 +11,66 @@
 </head>
 
 <body>
+  <section class="title">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 test">
+          <h1 class="text-uppercase text-center ">Rock paper scissors game</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="select-panel">
+    <div class="container">
+      <div class="row">
+        <h3 class="choose">Please choose:</h3>
+      </div>
+      <div class="row hands">
+        <div class="col-12 col-md-4 hand rock-hand">
+          <img data-option="rock" src="img/rock.png" alt="rock">
+        </div>
+        <div class="col-12 col-md-4 hand paper-hand">
+          <img data-option="paper" src="img/paper.png" alt="paper">
+        </div>
+        <div class="col-12 col-md-4 hand scissors-hand">
+          <img data-option="scissors" src="img/scissors.png" alt="scissors">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <button class="start">Let's play!</button>
+        </div>
+        <div class="col-12 col-sm-6">
+          <button class="reset">Reset results</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="game-panel">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div class="panel-left">
+            <h3>Game results</h3>
+            <p>Your choice: <span data-summary="your-choice"></span></p>
+            <p>Computer choice: <span data-summary="ai-choice"></span></p>
+            <h2>Winner: <span data-summary="who-win"></span></h2>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="panel-right">
+            <h3>Results</h3>
+            <p class="numbers">Game number: <span>0</span></p>
+            <p class="wins">win: <span>0</span></p>
+            <p class="losses">loses: <span>0</span></p>
+            <p class="draws">draws: <span>0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
